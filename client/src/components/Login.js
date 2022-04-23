@@ -45,7 +45,6 @@ function Login() {
             }
         } catch (e) {
             console.log(e);
-            alert(e);
         }
     }
     return (
