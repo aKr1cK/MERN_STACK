@@ -25,14 +25,11 @@ function Home(){
             resp = await resp.json();
 
             if (!resp || resp.status === 422) {
-                alert('FAILED');
             } else {
                 console.log(resp);
-                alert('SUCCESS');
             }
         } catch (e) {
             console.log(e);
-            alert(e);
         }
     }
 
