@@ -1,0 +1,9 @@
+a{
+  color: silver ;
+  text-decoration: none;
+  margin: 10px;
+}
+
+a.active{
+  color: black !important;
+}
